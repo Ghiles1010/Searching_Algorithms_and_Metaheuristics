@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-        SAT sat = SAT.createSAT("benchmarks\\benchmarks20\\uf20-01.cnf");
+        SAT sat = SAT.createSAT("benchmarks\\benchmarks75\\uf75-01.cnf");
 
-        PSO pso = new PSO(sat, 30, 1,1.5,0.5,1, 10000 );
+        PSO pso = new PSO(sat, 30, 1,0.75,0.5,1, 10000 );
 
         /*
         GeneticAlgorithm ga = new GeneticAlgorithm(sat, 100, 10000);

@@ -1,6 +1,5 @@
 package UI;
 
-import UI.controllers.Eval_controller;
 import javafx.concurrent.Task;
 import utils.Algorithm;
 

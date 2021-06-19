@@ -1,6 +1,6 @@
-package UI.controllers;
+package UI;
 
-import UI.controllers.Eval_controller;
+import UI.Eval_controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -59,7 +59,7 @@ public class Main_Controller implements Initializable {
 
 
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("../fxml/Eval_Scene.fxml"));
+            loader.setLocation(getClass().getResource("Eval_Scene.fxml"));
             Parent eval_scene = loader.load();
 
             Eval_controller controller = loader.getController();

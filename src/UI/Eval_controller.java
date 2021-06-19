@@ -1,4 +1,4 @@
-package UI.controllers;
+package UI;
 
 
 import UI.Search;
@@ -66,7 +66,7 @@ public class Eval_controller {
     private  void back() throws IOException {
 
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("../fxml/Main_Scene.fxml"));
+        loader.setLocation(getClass().getResource("Main_Scene.fxml"));
         Parent main_scene = loader.load();
         Stage window = (Stage) back.getScene().getWindow();
         window.setScene(new Scene(main_scene));
